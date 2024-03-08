@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-plane"></i>
+          <p>ViaTour</p>
+          <input
+            type="search"
+            id="sear"
+            placeholder="search destination or activities"
+          />
+        </div>
+
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+          <i class="fa-solid fa-x cross"></i>
+          <i class="fa-solid fa-bars menu"></i>
+        </label>
+        <nav>
+          <a href="#des">Destinations</a>
+          <a href="#act">Tours</a>
+          <a href="#gallery">Gallery</a>
+
+          <a href="places.html">Places</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </header>
+
+      <!-- Hero Sections -->
+      <div class="hero">
+        <div class="hero-box">
+          <h1>Your World of Joy</h1>
+          <p class="p">
+            From local escapes to far-flung advntures,find what makes you happen
+            anytime.
+          </p>
+
+          <div class="bigB">
+            <div class="box1">
+              <div class="b1"></div>
+              <div class="">
+                <p>Where</p>
+                <p>Search Destination</p>
+              </div>
+            </div>
+
+            <div class="box1">
+              <div class="b1"></div>
+              <div class="">
+                <p>When</p>
+                <p>February 05 - March 14</p>
+              </div>
+            </div>
+
+            <div class="box1">
+              <div class="b1"></div>
+              <div class="">
+                <p>Tour Type</p>
+                <p>All tour</p>
+              </div>
+            </div>
+
+            <button class="btn">Search</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features -->
+      <div class="feat">
+        <h1>Why Choose Tourz</h1>
+        <!-- Rows -->
+        <div class="row">
+          <div class="col">
+            <i class="fa-solid fa-money-bill-1 far"></i>
+            <p>Ultimate Flexibility</p>
+            <p>
+              You're in control,with free cancellation and payment options to
+              satisfy any plan or budget
+            </p>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-cloud far"></i>
+            <p>Memorable Experiences</p>
+            <p>
+              Browse and book tour activities so incredible,you'll want to tell
+              your friends
+            </p>
+          </div>
+
+          <div class="col">
+            <i class="fa-regular fa-gem far"></i>
+            <p>Quality at our core</p>
+            <p>High quality Standards.Millions of reviews.A tourz company</p>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-ribbon far"></i>
+            <p>Award winning support</p>
+            <p>New price?New plan?No problem.we're here to help,24/7.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trending destination -->
+      <section class="trending-des" id="des">
+        <h1>Trending Destinations</h1>
+        <div class="trendBox">
+          <!-- ////// -->
+          <div class="t-cols">
+            <img
+              src="https://img.static-af.com/images/media/45CB9A13-B167-4842-8EA805D0CC7A4D04/?w=480&aspect_ratio=2:1"
+              alt=""
+            />
+            <div class="q">
+              <p>Paris</p>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://a.cdn-hotels.com/gdcs/production8/d1098/064a4e00-23ee-4137-8ec3-a0d27bca0782.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+              alt=""
+            />
+            <div class="q">
+              <p>Singapore</p>
+              <p>300+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://www.colosseodiroma.it/images/colosseo-roma.jpg"
+              alt=""
+            />
+            <div class="q">
+              <p>Roma</p>
+              <p>400+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfU_Uqv2V1rrJxhhFIpAkMpNah4dh4bEj6nvh6AsKy3lOjcdYxIzTdN-CXRdnKYxCLk5g&usqp=CAU"
+              alt=""
+            />
+            <div class="q">
+              <p>Bangkok</p>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+              alt=""
+            />
+            <div class="q">
+              <p>Bali</p>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://www.worldtravellers.co.nz/assets/Uploads/Blocks/ContentImages/Thailand-canva-1__ScaleMaxWidthWzEyMDBd.jpg"
+              alt=""
+            />
+            <div class="q">
+              <p>Phuket</p>
+              <p>200+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000002/img/basic/a0000002_main.jpg"
+              alt=""
+            />
+            <div class="q">
+              <p>Tokyo</p>
+              <p>700+ Tours</p>
+            </div>
+          </div>
+
+          <div class="t-cols">
+            <img
+              src="https://s3.eu-west-1.amazonaws.com/itpweb/banner/doc/0b3680e372ba5d2eefa7c413b1900e31-64900fedef02d.jpg"
+              alt=""
+            />
+            <div class="q">
+              <p>Cappadocia</p>
+              <p>900+ Tours</p>
+            </div>
+          </div>
+
+          <!-- ///////// -->
+        </div>
+      </section>
+
+      <!-- Find Popular Tour -->
+      <div class="popular" id="act">
+        <h1>Find popular Tour</h1>
+
+        <div class="popBox">
+          <!-- --------Popular tour---------- -->
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://cdn.outsideonline.com/wp-content/uploads/2022/10/pb-single-pivot_s.jpeg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">Paris,France</p>
+            <p class="p2">
+              Centipede Tour,Guided Arizona <br />DesertTour by ATV
+            </p>
+            <p class="p3">4.3(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$189.25</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/68/af.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">New York,USA</p>
+            <p class="p2">
+              Molokini and Turtle Town <br />Snorketing Adventure Abroad
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$225</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://img.rezdy.com/PRODUCT_IMAGE/151734/56befa1b40de43c3b79cd5da33efebc6westminster_abbey_lg.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">London,Uk</p>
+            <p class="p2">
+              Westiminister Walking Tour & <br />Westiminister Abbey Entry
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$943</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/86/fb/b9.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">New York,USA</p>
+            <p class="p2">
+              All inclusive Ultimate Circle Island <br />Day Tour With Lunch
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$771</span></p>
+            </div>
+          </div>
+          <!-- Part-2 -->
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/85/6a.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">Texas,USA</p>
+            <p class="p2">Space Center Houston Admission<br />Ticket</p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$189.25</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://mediaim.expedia.com/localexpert/1278066/ba7aa91e-5147-4178-9b47-75c79f42ece3.jpg?impolicy=resizecrop&rw=1005&rh=565"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">New York,USA</p>
+            <p class="p2">
+              Clear kayak Tour of Shell Key <br />Preserve and tampa Bay Area
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$225</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-I1BjgOqdPvhWlkgJZBrWWw5rs-192GgI1zsY8sd5_supWjtI0q6n2H5LCp1XGhivKJY&usqp=CAU"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">london ,Uk</p>
+            <p class="p2">
+              History and Hauntings of Salem<br />Guided Walking Tour
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$943</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.istockphoto.com/id/1125993320/photo/woman-stand-up-paddling-towards-cliffs-and-caves.jpg?s=612x612&w=0&k=20&c=zEr-4Gbp2zhXU25UdDbLMDqSYjrUQtWUx1bPhQckSOc="
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">Hawai,USA</p>
+            <p class="p2">
+              Mauna Kea Summit Sunset and <br />Stars free Atro Photos Hilo Kona
+              <br />
+              Waikola Pick Uo
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$771</span></p>
+            </div>
+          </div>
+
+          <!-- ////////////////////////////////////////// -->
+        </div>
+      </div>
+
+      <!-- A random Section -->
+      <section class="des-baloon">
+        <div class="baloon">
+          <div class="baloon-1">
+            <div class="baloonSub">
+              <h2 class="ba-1">
+                Grab up to <span class="ba-2">35% off </span> <br />
+                on your favorite <br />Destination
+              </h2>
+
+              <p>Limited time offer,don't miss the oppurtunity</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+
+          <div class="baloon-2">
+            <img
+              src="https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2021-08/air-balloons-in-Cappadocia.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="galleries" id="git gallery">
+        <h1>Popular things to do</h1>
+        <div class="gallery">
+          <div class="box-1">
+            <img
+              src="https://image.cnbcfm.com/api/v1/image/107205273-1678300955543-image-007.jpg?v=1678379832"
+              alt=""
+            />
+            <p>Cruises</p>
+          </div>
+
+          <div class="box-1">
+            <img
+              src="https://www.wendyperrin.com/wp-content/uploads/2016/11/Paris-Louvre-at-night-Pixabay.jpg"
+              alt=""
+            />
+            <p>Museum Tour</p>
+          </div>
+
+          <div class="box-1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCwCYLFCNGrk86ZuevKT-Kt9Gbd22UuVYhg&usqp=CAU"
+              alt=""
+            />
+            <p>Seaside</p>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <div class="box-1">
+            <img
+              src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/couple-walking-on-the-beach-valentina-sandu.jpg"
+              alt=""
+            />
+            <p>Beach Tour</p>
+          </div>
+
+          <div class="box-1">
+            <img
+              src="https://en.chateauversailles.fr/sites/default/files/styles/reseaux_sociaux/public/visuels_principaux/hisoires/histoire.jpg?itok=WscpIPU9"
+              alt=""
+            />
+            <p>Palace Tour</p>
+          </div>
+
+          <div class="box-1">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hiking_to_the_Ice_Lakes._San_Juan_National_Forest%2C_Colorado.jpg/1200px-Hiking_to_the_Ice_Lakes._San_Juan_National_Forest%2C_Colorado.jpg"
+              alt=""
+            />
+            <p>Hiking</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Trending -->
+      <section class="top-trend">
+        <h1>Top Trending</h1>
+        <div class="popBox popy">
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://cdn.outsideonline.com/wp-content/uploads/2022/10/pb-single-pivot_s.jpeg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">Paris,France</p>
+            <p class="p2">
+              Centipede Tour,Guided Arizona <br />DesertTour by ATV
+            </p>
+            <p class="p3">4.3(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$189.25</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/68/af.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">New York,USA</p>
+            <p class="p2">
+              Molokini and Turtle Town <br />Snorketing Adventure Abroad
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$225</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://img.rezdy.com/PRODUCT_IMAGE/151734/56befa1b40de43c3b79cd5da33efebc6westminster_abbey_lg.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">London,Uk</p>
+            <p class="p2">
+              Westiminister Walking Tour & <br />Westiminister Abbey Entry
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$943</span></p>
+            </div>
+          </div>
+
+          <div class="pop-col">
+            <div class="pop-img">
+              <img
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/86/fb/b9.jpg"
+                alt=""
+              />
+              <div class="cir"></div>
+            </div>
+
+            <p class="p1">New York,USA</p>
+            <p class="p2">
+              All inclusive Ultimate Circle Island <br />Day Tour With Lunch
+            </p>
+            <p class="p3">4.8(243)</p>
+            <hr class="hr" />
+            <div class="pop-pri">
+              <p>4 days</p>
+              <p>From <span class="priw">$771</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reviews -->
+      <section class="testimoney">
+        <div class="review">
+          <h2>Coustomer Reviews</h2>
+          <div class="imag">
+            <img
+              src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
+              alt=""
+              class="revimg"
+            />
+            <div class="semicir">
+              <p>"</p>
+            </div>
+          </div>
+
+          <p class="es">Excellent services!</p>
+          <p class="i">
+            I had amazing experience with this company.The service was <br />
+            top-notch,and the staff was incredibly friendly. i highly
+            <br />recommend them!
+          </p>
+          <p class="jon">John Smith</p>
+          <p>Traveler</p>
+        </div>
+      </section>
+
+      <!-- App booking  -->
+
+      <section class="appBook">
+        <div class="appBooktext">
+          <h2>
+            Get 5 % off your last 1st <br />
+            app booking
+          </h2>
+
+          <p>Booking's better on the app.Use promo code</p>
+          <p>"TourBooking" to save!</p>
+          <p>Get a magic link sent to your email</p>
+
+          <div class="searB">
+            <input type="text" placeholder="search" class="search" />
+            <button class="send">Send</button>
+          </div>
+        </div>
+
+        <div class="appimg">
+          <img src="images/Frame.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Top article -->
+
+      <div class="travel-article">
+        <h2>Travel Articles</h2>
+        <div class="travelBoxes">
+          <div class="travelBox">
+            <div class="artimg">
+              <img
+                src="https://images.ctfassets.net/bth3mlrehms2/2KaPcX3mLqdv8Wtukfp4Ks/a3c4ccd304c1fe03477e61a9b03f892a/Kenia_Kilimanjaro_Elefantenherde.jpg?w=1058&h=595&fl=progressive&q=50&fm=jpg"
+                alt=""
+              />
+              <button class="trip">Trip</button>
+            </div>
+
+            <p>
+              April 06 2023 &nbsp<span class="pao"></span> &nbsp By Ali Tufan
+            </p>
+
+            <p>
+              Kenya vs Tanzania Safari:The Better African <br />
+              Safari Experience
+            </p>
+          </div>
+
+          <div class="travelBox">
+            <div class="artimg">
+              <img
+                src="https://gate1connections.files.wordpress.com/2018/12/kenya.jpg"
+                alt=""
+              />
+              <button class="trip">Trip</button>
+            </div>
+
+            <p>
+              April 07 2023 &nbsp<span class="pao"></span> &nbsp By Emily
+              Johnson
+            </p>
+
+            <p>Exploring the Serengeti:A Wildlife Adventure</p>
+          </div>
+
+          <div class="travelBox">
+            <div class="artimg">
+              <img
+                src="https://cdn.tourradar.com/s3/content-pages/482/1024x460/oCNUif.jpg"
+                alt=""
+              />
+              <button class="trip">Trip</button>
+            </div>
+
+            <p>
+              April 08 2023 &nbsp<span class="pao"></span> &nbsp By Maxwell
+              Rhodes
+            </p>
+
+            <p>Into the Wild:An Unforgettable Safari Journey</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <footer>
+        <div class="subFoot">
+          <p>Speak to Our expert at <span class="call">1-800-453-6744</span></p>
+          <p>Follow us</p>
+        </div>
+        <hr />
+
+        <div class="subfooter">
+          <ul class="foolist">
+            <li class="lih">Contact</li>
+            <li>328 Queensberry Street,North Melbourne VIC3051,</li>
+            <li>Australia</li>
+            <li>hi@viatours.com</li>
+          </ul>
+
+          <ul class="foolist">
+            <li class="lih">Company</li>
+            <li>About Us</li>
+            <li>Tourz Reviews</li>
+            <li>Contact Us</li>
+            <li>Travel Guides</li>
+            <li>Data policy</li>
+            <li>Cookie Policy</li>
+            <li>Legal</li>
+            <li>Sitemap</li>
+          </ul>
+
+          <ul class="foolist">
+            <li class="lih">Support</li>
+            <li>Get in Touch</li>
+            <li>Help Center</li>
+            <li>Live Chat</li>
+            <li>How it works</li>
+          </ul>
+
+          <ul class="foolist">
+            <li class="lih">Newsletter</li>
+            <li>
+              Subscribe to the free newsletter and stay <br />
+              up to date
+            </li>
+            <li>
+              <input type="text" placeholder="Your email address" class="sea" />
+            </li>
+            <li class="lih">Mobile Apps :</li>
+            <li>Ios App</li>
+            <li>Android App</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
